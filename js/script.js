@@ -29,7 +29,7 @@ let intYourAge;        // Integer for Your Age
 let strReferralSource; // String for Referral Source
 let boolMayWeContactYou; // Boolean for May We Contact You
 //Take the 3 of the 9 variables that you created above and demonstrate 3 ways for declaring and assigning values to those variables.
-let strFirstName = "Ernaldo";
-let strLastName = "Becerra";
-let intYourAge = 26;
-//
+
+strFirstName = "Bob";
+strLastName = "Johnson";
+intYourAge = 25;
