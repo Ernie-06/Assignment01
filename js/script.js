@@ -56,3 +56,10 @@ console.log(result2);
 // Is the following string literal valid? If not, how would you fix it?
 let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
 console.log(someString);
+//Create a variable that produces a null value in the console window.Then, create a variable that produces an undefined value in the console window.
+let x = 200; 
+let y = null; 
+x = null; 
+
+alert(x);
+alert(y); 
