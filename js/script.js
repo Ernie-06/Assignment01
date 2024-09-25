@@ -59,10 +59,10 @@ console.log(someString);
 //Create a variable that produces a null value in the console window.Then, create a variable that produces an undefined value in the console window.
 let c = 200; 
 let p = null; 
-x = null; 
+p = null; 
 
-alert(x);
-alert(y); 
+alert(c);
+alert(p); 
 //Within an alert box, use the concatenation operator (+) to display text in the alert box that appears as follows:
 let firstName = "Zak"; 
 let lastName = "Ruvalcaba";
