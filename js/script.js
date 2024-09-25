@@ -33,3 +33,9 @@ let boolMayWeContactYou; // Boolean for May We Contact You
 strFirstName = "Bob";
 strLastName = "Johnson";
 intYourAge = 25;
+
+// Create a variable Add a number and a string and display the coerced result in the browser’s console window.
+let number = 42;
+let string = " oranges";
+let result = number + string; 
+console.log(result);
