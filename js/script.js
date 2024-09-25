@@ -63,3 +63,8 @@ x = null;
 
 alert(x);
 alert(y); 
+//Within an alert box, use the concatenation operator (+) to display text in the alert box that appears as follows:
+let firstName = "Zak"; 
+let lastName = "Ruvalcaba";
+alert("Hello " + firstName + " " + lastName + ", welcome to the JavaScript class!");
+//Replace the hardcoded string of your name with a prompt that asks the user for their name. The prompt’s response will now be captured in the name variable.
