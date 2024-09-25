@@ -84,3 +84,30 @@ alert(alertMessage);
 let x = 10;
 let y = 20;
 console.log(x + y);
+
+//Declare a variable called x and assign it a value of 20.
+//Add and assign 20 to that variable and display the result in the console window.
+//The result should be 40.
+x = 20; 
+x += 20; 
+console.log(x); 
+
+// Declare variable x and assign it a value of 20
+// Multiply x by 5 and assign the result back to x
+x = 20;
+x *= 5;
+console.log(x);
+// Declare variable x as the remainder of 20 divided by 3
+ x = 20 % 3; 
+x /= 1; 
+console.log(x); 
+
+//Using a set of Comparison and Logical operators, write an application that evaluates to true and displays the result within the console window.
+a = 5;
+b = 10;
+console.log(a < b && b > 5); 
+
+//Using a set of Comparison and Logical operators, write an application that evaluates to false and displays the result within the console window. The application cannot use the same operators used in the previous application.
+ c = 15;
+ d = 10;
+console.log(c <= d || d === 5); 
