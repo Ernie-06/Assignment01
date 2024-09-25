@@ -39,3 +39,20 @@ let number = 42;
 let string = " oranges";
 let result = number + string; 
 console.log(result);
+//Create two variables.
+//For the first variable, add a Boolean and a string and display the coerced result.
+//For the second variable, add a number and a Boolean and display the coerced result.
+// First variable: Boolean and string
+let boolValue = true;
+let strValue = " is the answer";
+let result1 = boolValue + strValue; 
+console.log(result1); 
+
+// Second variable: Number and Boolean
+let numberValue = 5;
+let boolValue2 = false;
+let result2 = numberValue + boolValue2; 
+console.log(result2); 
+// Is the following string literal valid? If not, how would you fix it?
+let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
+console.log(someString);
