@@ -57,8 +57,8 @@ console.log(result2);
 let someString = 'Who once said, "Only two things are infinite, the universe and human stupidity, and I\'m not sure about the former."';
 console.log(someString);
 //Create a variable that produces a null value in the console window.Then, create a variable that produces an undefined value in the console window.
-let x = 200; 
-let y = null; 
+let c = 200; 
+let p = null; 
 x = null; 
 
 alert(x);
@@ -78,3 +78,9 @@ var course = prompt("Please enter the class you are taking:");
 var alertMessage = "Hello " + name + ".\nWelcome to the " + course + " class!";
 alert(alertMessage);
 
+//Declare a variable called x and assign it a value of 10.
+//Declare a variable called y and assign it a value of 20.
+//Display the sum of those two numbers in the console window.
+let x = 10;
+let y = 20;
+console.log(x + y);
