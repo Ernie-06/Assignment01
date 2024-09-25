@@ -67,4 +67,14 @@ alert(y);
 let firstName = "Zak"; 
 let lastName = "Ruvalcaba";
 alert("Hello " + firstName + " " + lastName + ", welcome to the JavaScript class!");
-//Replace the hardcoded string of your name with a prompt that asks the user for their name. The prompt’s response will now be captured in the name variable.
+//Declare a variable called name and set it equal to your name.Substitute your name in the previous alert string with the variable instead.
+var name = "Zak Ruvalcaba";
+var alertMessage = "Hello " + name + ".\nWelcome to the JavaScript class!";
+alert(alertMessage);
+//Replace the hardcoded string of the class you are taking with a prompt that asks the user for the class they are taking. The prompt’s response will now be captured in the course variable
+// Prompt the user for their name and store it in the variable
+var name = prompt("Please enter your name:");
+var course = prompt("Please enter the class you are taking:");
+var alertMessage = "Hello " + name + ".\nWelcome to the " + course + " class!";
+alert(alertMessage);
+
